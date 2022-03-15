@@ -1,0 +1,7 @@
+{
+    "projectName": "",
+    "cmd": {
+        "build": "cargo build",
+        "run": "cargo run ~/Books/School/SSC/Economics/jess201.pdf "
+    }
+}
