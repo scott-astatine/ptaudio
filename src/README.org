@@ -1,0 +1,19 @@
+#+TITLE: ptaudio
+#+DESCRIPTION: A simple pdf to audio converter written in rust.
+
+This is a simple pdf to audio converter written in rust.
+
+* Dependencies
++ espeak-ng-extended [[https://github.com/espeak-ng/espeak-ng]]
+
+* Compile
+#+begin_lang bash
+cargo build --release
+
+#+end_lang
+
+* Usage
+#+begin_lang bash
+./target/release/ptaudio <path/to/filename.pdf> <output filename>
+
+#+end_lang
